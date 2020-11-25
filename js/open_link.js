@@ -124,6 +124,10 @@ var searchURL = {
 	'search': 'http://www.gettyimages.cn/newsr.php?thekeyword=sss%keyword%',
 	'home': 'http://www.gettyimages.cn'
   },
+  'getapp': {
+	'search': 'https://www.getapp.com/?mobile_search_keywords=&search_keywords=%keyword%',
+	'home': 'https://www.getapp.com'
+  },
   'gettyimages': {
 	'search': 'http://www.gettyimages.com/Search/Search.aspx?contractUrl=2&language=en-US&family=creative&assetType=image&excludenudity=false&p=%keyword%',
 	'home': 'http://www.gettyimages.com'
@@ -179,6 +183,18 @@ var searchURL = {
   'chromeexts': {
 	'search': 'https://chrome.google.com/webstore/search/%keyword%',
 	'home': 'https://chrome.google.com/webstore'
+  },
+  'greasyfork': {
+	'search': 'https://greasyfork.org/zh-CN/scripts?q=%keyword%',
+	'home': 'https://greasyfork.org'
+  },
+  'yingyongbao': {
+	'search': 'http://sj.qq.com/myapp/search.htm?kw=%keyword%',
+	'home': 'http://sj.qq.com'
+  },
+  'macbox': {
+	'search': 'https://www.macappbox.com/search.html?search=%keyword%',
+	'home': 'https://www.macappbox.com'
   },
   'uxmatters': {
 	'search': 'http://www.uxmatters.com/mt/mt-ftsearch.cgi?IncludeBlogs=1&limit=40&search=%keyword%',
@@ -516,6 +532,30 @@ var searchURL = {
 	'search': 'http://www.appdesignserved.co/search?search=%keyword%',
 	'home': 'http://www.appdesignserved.co'
   },
+  'topbooks': {
+	'search': 'https://topbook.cc/search/article?keywords=%keyword%',
+	'home': 'https://topbook.cc'
+  },
+  'cowlevel': {
+	'search': 'https://cowlevel.net/search?q=%keyword%',
+	'home': 'https://cowlevel.net'
+  },
+  '91mj': {
+	'search': 'https://91mjw.com/?s=%keyword%',
+	'home': 'https://91mjw.com'
+  },
+  'cupfox': {
+	'search': 'https://www.cupfox.com/search?key=%keyword%',
+	'home': 'https://www.cupfox.com'
+  },
+  'dianyingfm': {
+	'search': 'http://dianying.fm/category/key_%keyword%',
+	'home': 'http://dianying.fm'
+  },
+  'nicotv': {
+	'search': 'http://www.nicotv.me/video/search/%keyword%.html',
+	'home': 'http://www.nicotv.me'
+  },
   'etao': {
 	'search': 'http://s.etao.com/search?q=%keyword%',
 	'home': 'http://etao.com'
@@ -523,6 +563,10 @@ var searchURL = {
   'ishare': {
 	'search': 'http://ishare.iask.sina.com.cn/search.php?key=%keyword%',
 	'home': 'http://ishare.iask.sina.com'
+  },
+  'askci': {
+	'search': 'https://s.askci.com/search/%keyword%',
+	'home': 'https://askci.com'
   },
   'pandora': {
 	'search': 'http://www.pandora.com/search/%keyword%',
@@ -587,6 +631,10 @@ var searchURL = {
   'howcast': {
 	'search': 'http://www.howcast.com/search?term=%keyword%',
 	'home': 'http://www.howcast.com'
+  },
+  '199it': {
+	'search': 'http://search.199it.com/?q=%keyword%',
+	'home': 'http://199it.com'
   },
   'xiachufang': {
 	'search': 'http://www.xiachufang.com/search/?keyword=%keyword%',
@@ -668,22 +716,6 @@ var searchURL = {
 	'search': 'http://www.lonelyplanet.com/searchResult?q=%keyword%',
 	'home': 'http://www.lonelyplanet.com'
   },
-  'jiepang': {
-	'search': 'http://jiepang.com/search/%keyword%',
-	'home': 'http://jiepang.com'
-  },
-  'yixun': {
-	'search': 'http://searchex.51buy.com/html?area=1&charset=utf-8&as=1&key=%keyword%',
-	'home': 'http://51buy.com'
-  },
-  'ikandou': {
-	'search': 'http://ikandou.com/search/happy/?q=%keyword%',
-	'home': 'http://ikandou.com'
-  },
-  'kindle': {
-	'search': 'http://www.amazon.cn/s/ref=nb_sb_noss?__mk_zh_CN=%E4%BA%9A%E9%A9%AC%E9%80%8A%E7%BD%91%E7%AB%99&url=node%3D116169071&field-keywords=%keyword%',
-	'home': 'http://www.amazon.cn/Kindle%E5%95%86%E5%BA%97/b?node=116087071'
-  },
   'indiegogo': {
 	'search': 'http://www.indiegogo.com/projects?utf8=%E2%9C%93&filter_title=%keyword%&search_submit=Search',
 	'home': 'http://www.indiegogo.com'
@@ -691,6 +723,10 @@ var searchURL = {
   'xueqiu': {
 	'search': 'http://xueqiu.com/k?q=%keyword%',
 	'home': 'http://xueqiu.com'
+  },
+  'dashengpan': {
+	'search': 'https://www.dashengpan.com/search?keyword=%keyword%',
+	'home': 'https://www.dashengpan.com'
   },
   'datatang': {
 	'search': 'http://www.datatang.com/s/data?k=%keyword%',
@@ -896,6 +932,10 @@ var searchURL = {
 	'search': 'http://www.houzz.com/%keyword%',
 	'home': 'http://www.houzz.com'
   },
+  'houxu': {
+	'search': 'https://houxuapp.com/search?q=%keyword%',
+	'home': 'https://houxuapp.com'
+  },
   'dangdang': {
 	'search': 'http://search.dangdang.com/?key=%keyword%',
 	'home': 'http://dangdang.com'
@@ -943,6 +983,10 @@ var searchURL = {
   'wxwenzhang': {
 	'search': 'http://weixin.sogou.com/weixin?type=2&query=%keyword%',
 	'home': 'http://weixin.sogou.com'
+  },
+  'xiepp': {
+	'search': 'http://search.xiepp.com/search.aspx?q=%keyword%',
+	'home': 'http://xiepp.com/'
   },
   'wikihow': {
 	'search': 'http://zh.wikihow.com/wikiHowTo?search=%keyword%',
@@ -1108,6 +1152,30 @@ var searchURL = {
 	'search': 'https://safesearch.avira.com/#web/result?q=%keyword%',
 	'home': 'https://safesearch.avira.com'
   },
+  'mingjian': {
+	'search': 'https://www.mingjian.cn/search.php?searchtext=%keyword%',
+	'home': 'https://www.mingjian.cn'
+  },
+  'readermemo': {
+	'search': 'https://readermemo.com/?s=%keyword%',
+	'home': 'https://readermemo.com'
+  },
+  'qwyw': {
+	'search': 'https://www.qwyw.org/?s=%keyword%',
+	'home': 'https://www.qwyw.org'
+  },
+  'msd': {
+	'search': 'https://www.msdmanuals.com/zh/首页/SearchResults?query=%keyword%',
+	'home': 'https://www.msdmanuals.com/zh'
+  },
+  'mvyxws': {
+	'search': 'https://www.mvyxws.com/index.php/vod/search?key=%keyword%',
+	'home': 'https://www.mvyxws.com'
+  },
+  'magi': {
+	'search': 'https://magi.com/search?q=%keyword%',
+	'home': 'https://magi.com'
+  },
   'namedotcom': {
 	'search': 'https://www.name.com/domain/search-3-1/%keyword%',
 	'home': 'https://www.name.com'
@@ -1200,7 +1268,6 @@ var searchURL = {
 	'search': 'https://www.artstation.com/search?q=%keyword%',
 	'home': 'https://www.artstation.com'
   },
-
   'tradingeconomics': {
 	'search': 'http://www.tradingeconomics.com/search.aspx?q=%keyword%',
 	'home': 'http://www.tradingeconomics.com/'
@@ -1208,6 +1275,10 @@ var searchURL = {
   'wdl': {
 	'search': 'https://www.wdl.org/zh/search/?q=%keyword%',
 	'home': 'https://www.wdl.org/zh/'
+  },
+  'unplash': {
+	'search': 'https://unsplash.com/search/photos/%keyword%',
+	'home': 'https://unsplash.com'
   },
   'letv': {
 	'search': 'http://so.le.com/s?wd=%keyword%',
@@ -1224,6 +1295,14 @@ var searchURL = {
   'jianshu': {
 	'search': 'http://www.jianshu.com/search?q=%keyword%',
 	'home': 'http://www.jianshu.com'
+  },
+  'huaban': {
+	'search': 'https://huaban.com/search/?q=%keyword%',
+	'home': 'https://huaban.com/somelseer/'
+  },
+  'hypebeast': {
+	'search': 'https://hypebeast.com/zh/search?s=%keyword%',
+	'home': 'https://hypebeast.com'
   },
   'shuge': {
 	'search': 'https://shuge.org/?s=%keyword%',
@@ -1329,6 +1408,22 @@ var searchURL = {
   'sspai': {
 	'search': 'https://sspai.com/search/article?q=%keyword%',
 	'home': 'https://sspai.com'
+  },
+  'segmentfault': {
+	'search': 'https://segmentfault.com/search?q=%keyword%',
+	'home': 'https://segmentfault.com'
+  },
+  'cnblogs': {
+	'search': 'https://zzk.cnblogs.com/s?w=%keyword%',
+	'home': 'https://zzk.cnblogs.com'
+  },
+  'runoob': {
+	'search': 'https://www.runoob.com/?s=%keyword%',
+	'home': 'https://www.runoob.com'
+  },
+  'juejin': {
+	'search': 'https://juejin.im/search?query=%keyword%&type=all',
+	'home': 'https://juejin.im'
   },
   'skypixel': {
 	'search': 'https://www.skypixel.com/search?q=%keyword%',
