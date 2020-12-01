@@ -216,10 +216,6 @@ var searchURL = {
 	'search': 'https://www.facebook.com/search/results.php?q=%keyword%',
 	'home': 'https://www.facebook.com'
   },
-  'dianyingfm': {
-	'search': 'http://dianying.fm/category/key_%keyword%',
-	'home': 'http://dianying.fm'
-  },
   'mtime': {
 	'search': 'http://search.mtime.com/search/?%keyword%',
 	'home': 'http://mtime.com'
@@ -617,8 +613,8 @@ var searchURL = {
 	'home': 'http://knowyourmeme.com'
   },
   'bilibili': {
-	'search': 'http://www.bilibili.tv/search?keyword=%keyword%',
-	'home': 'http://www.bilibili.tv'
+	'search': 'https://www.bilibili.com/?=%keyword%',
+	'home': 'http://www.bilibili.com'
   },
   'ted': {
 	'search': 'http://www.ted.com/search?cat=ss_all&q=%keyword%',
@@ -627,6 +623,10 @@ var searchURL = {
   'jandan': {
 	'search': 'http://jandan.net/search?q=%keyword%&cx=partner-pub-4352453996606420%3A9g4umvoigh7&cof=FORID%3A10&ie=UTF-8',
 	'home': 'http://jandan.net'
+  },
+  'quanxianzai': {
+	'search': 'https://www.allnow.com/search/%keyword%',
+	'home': 'https://www.allnow.com'
   },
   'howcast': {
 	'search': 'http://www.howcast.com/search?term=%keyword%',
@@ -1108,10 +1108,6 @@ var searchURL = {
 	'search': 'http://search.tianya.cn/bbs?q=%keyword%',
 	'home': 'http://tianya.cn/'
   },
-  'yingyongbao': {
-	'search': 'http://sj.qq.com/myapp/search.htm?kw=%keyword%',
-	'home': 'http://sj.qq.com/myapp'
-  },
   'codepen': {
 	'search': 'http://codepen.io/search?q=%keyword%',
 	'home': 'http://codepen.io/'
@@ -1400,10 +1396,6 @@ var searchURL = {
   'bloomberg': {
 	'search': 'https://www.bloomberg.com/search?query=%keyword%',
 	'home': 'https://www.bloomberg.com'
-  },
-  'lofter': {
-	'search': 'http://www.lofter.com/tag/%keyword%',
-	'home': 'http://www.lofter.com'
   },
   'sspai': {
 	'search': 'https://sspai.com/search/article?q=%keyword%',
